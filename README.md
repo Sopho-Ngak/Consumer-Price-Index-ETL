@@ -1,7 +1,7 @@
 # Project Title: Consumer Price Index (CPI) Analysis for Rwanda
 
 ## Description
-Welcome to the CPI Analysis for Rwanda project repository! This project focuses on cleaning and transforming the Consumer Price Index (CPI) data of Rwanda from February 2009 to March 2024 from an Excel file. In this repository, you'll find the necessary files and instructions to set up the project on your machine and perform data engineering tasks to extract meaningful insights from the dataset. The data source is in this excel file: [Consumer Price Index (CPI) Data](https://github.com/Sopho-Ngak/Consumer-Price-Index-ETL/data/source/CPI_time_series_March_2024.xls).
+Welcome to the CPI Analysis for Rwanda project repository! This project focuses on cleaning and transforming the Consumer Price Index (CPI) data of Rwanda from February 2009 to March 2024 from an Excel file. In this repository, you'll find the necessary files and instructions to set up the project on your machine and perform data engineering tasks to extract meaningful insights from the dataset. The data source is in this excel file: [Consumer Price Index (CPI) Data](https://github.com/Sopho-Ngak/Consumer-Price-Index-ETL/blob/main/data/source/CPI_time_series_March_2024.xls).
 
 ## Table of Contents
 1. [Installation](#installation)

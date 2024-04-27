@@ -86,7 +86,7 @@ class ETL:
             df_dict[key] = df
 
             df.to_csv(os.path.join(BASE_DIR, 'data',
-                      'data_by_province', f'{key}.csv'))
+                      'data_by_source', f'{key}.csv'), index=False)
 
         log.info('............Transformation complete..............')
         # Concatenate the dataframes into a single dataframe
@@ -97,7 +97,7 @@ class ETL:
     def load(self, df: pd.DataFrame = None):
         log.info('===> Loading data to CSV file............')
         df.to_csv(os.path.join(BASE_DIR, 'data',
-                  'transformed', 'CPI_time_series.csv'))
+                  'transformed', 'CPI_time_series.csv'), index=False)
         log.info('............Data loaded successfully............')
 
 
